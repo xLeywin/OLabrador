@@ -23,15 +23,12 @@
 <body>
     <form id="form1" runat="server">
         <!-- Header -->
-        <div class="cabecalho content-wrap" style="height: 150px">
-            <!-- Logo -->
-            <!-- <div class="logomarca">
-            <asp:Image ID="Logo" runat="server" ImageUrl="~/Images/logo_labrador.png" CssClass="logomarca"/>
-        </div> -->
+        <div style="height: 150px; background-color:#4b280a; margin: auto; position: relative">
+
 
             <!-- Title bar -->
             <div class="barra-titulo padding-14">
-                <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/letreiro_logo_labrador.png" Width="500px" />
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/letreiro_logo_labrador_branco.png" Width="500px" />
             </div>
             <!-- menu -->
             <div class="barra-menu">
