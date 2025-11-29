@@ -21,56 +21,58 @@
 
 </head>
 <body>
-    <!-- Header -->
-    <div class="cabecalho content-wrap" style="height: 150px">
-        <!-- Logo -->
-        <!-- <div class="logomarca">
+    <form id="form1" runat="server">
+        <!-- Header -->
+        <div class="cabecalho content-wrap" style="height: 150px">
+            <!-- Logo -->
+            <!-- <div class="logomarca">
             <asp:Image ID="Logo" runat="server" ImageUrl="~/Images/logo_labrador.png" CssClass="logomarca"/>
         </div> -->
 
-        <!-- Title bar -->
-        <div class="barra-titulo padding-14">
-            <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/letreiro_logo_labrador.png" Width="500px" />
+            <!-- Title bar -->
+            <div class="barra-titulo padding-14">
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/letreiro_logo_labrador.png" Width="500px" />
+            </div>
+            <!-- menu -->
+            <div class="barra-menu">
+                <a href="../Default.aspx">HOME</a>
+            </div>
         </div>
-        <!-- menu -->
-        <div class="barra-menu">
-            <a href="../Default.aspx">HOME</a>
+
+        <!-- Content -->
+        <div class="conteudo content-wrap">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
         </div>
-    </div>
 
-    <!-- Content -->
-    <div class="conteudo content-wrap">
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        </asp:ContentPlaceHolder>
-    </div>
-
-    <!-- Footer -->
-    <div class="rodape">
-        <div class="content-wrap">
-            <div class="row">
-                <div class="col-6">
-                    <div class="padding-14">
-                        <h2>Faculdade de Tecnologia de Americana</h2>
-                        <h4>Analise e Desenvolvimento de Sistemas</h4>
-                        <h5>Americana-SP</h5>
-                        <br />
-                        <br />
-                        Turma: 2-2025
+        <!-- Footer -->
+        <div class="rodape">
+            <div class="content-wrap">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="padding-14">
+                            <h2>Faculdade de Tecnologia de Americana</h2>
+                            <h4>Analise e Desenvolvimento de Sistemas</h4>
+                            <h5>Americana-SP</h5>
+                            <br />
+                            <br />
+                            Turma: 2-2025
+                        </div>
                     </div>
-                </div>
-                <div class="col-3">
-                    <div class="padding-14">
-                        <h2>MENU</h2>
+                    <div class="col-3">
+                        <div class="padding-14">
+                            <h2>MENU</h2>
 
+                        </div>
                     </div>
-                </div>
-                <div class="col-3">
-                    <div class="padding-14" style="text-align: right">
-                        <img src="Images/logo_labrador.png" style="width:50px; width:100px"/>
+                    <div class="col-3">
+                        <div class="padding-14" style="text-align: right">
+                            <img src="Images/logo_labrador.png" style="width: 50px; width: 100px" />
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </form>
 </body>
 </html>
