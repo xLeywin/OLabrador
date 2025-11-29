@@ -64,6 +64,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Database.accdb" />
     <Content Include="Css\Project.css" />
     <Content Include="Css\StyleSheet.css" />
     <Content Include="Default.aspx" />
