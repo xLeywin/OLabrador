@@ -11,7 +11,7 @@
                 <asp:Label ID="Alerta" ForeColor="Red" Font-Size="16px" runat="server"></asp:Label>
                 <br />
                 <br />
-                <label>Nome de usuário</label>
+                <label>Nome</label>
                 <asp:TextBox ID="Nome" runat="server"></asp:TextBox>
                 <label>E-mail</label>
                 <asp:TextBox ID="Email" TextMode="Email" runat="server"></asp:TextBox>
