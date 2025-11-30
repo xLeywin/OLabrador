@@ -11,7 +11,7 @@ namespace OLabrador
 {
 
 
-    public partial class InsertPost
+    public partial class CreateNewAccount
     {
 
         /// <summary>
@@ -24,84 +24,48 @@ namespace OLabrador
         protected global::System.Web.UI.WebControls.Label Alerta;
 
         /// <summary>
-        /// Controle Titulo.
+        /// Controle Nome.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Titulo;
+        protected global::System.Web.UI.WebControls.TextBox Nome;
 
         /// <summary>
-        /// Controle Subtitulo.
+        /// Controle Email.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Subtitulo;
+        protected global::System.Web.UI.WebControls.TextBox Email;
 
         /// <summary>
-        /// Controle Lide.
+        /// Controle Senha.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Lide;
+        protected global::System.Web.UI.WebControls.TextBox Senha;
 
         /// <summary>
-        /// Controle CorpoDoTexto.
+        /// Controle SenhaConfirmar.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox CorpoDoTexto;
+        protected global::System.Web.UI.WebControls.TextBox SenhaConfirmar;
 
         /// <summary>
-        /// Controle Autor.
+        /// Controle Confirmar.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Autor;
-
-        /// <summary>
-        /// Controle Categoria.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList Categoria;
-
-        /// <summary>
-        /// Controle Situacao.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList Situacao;
-
-        /// <summary>
-        /// Controle FileUpload1.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
-
-        /// <summary>
-        /// Controle Salvar.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Salvar;
+        protected global::System.Web.UI.WebControls.Button Confirmar;
     }
 }
