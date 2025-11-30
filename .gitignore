@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# .csproj
+OLabrador\OLabrador\OLabrador.csproj
+OLabrador\OLabrador.csproj
+OLabrador.csproj
+
