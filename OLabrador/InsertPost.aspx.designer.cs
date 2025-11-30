@@ -69,13 +69,13 @@ namespace OLabrador
         protected global::System.Web.UI.WebControls.TextBox Autor;
 
         /// <summary>
-        /// Controle FileUpload1.
+        /// Controle Categoria.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
+        protected global::System.Web.UI.WebControls.DropDownList Categoria;
 
         /// <summary>
         /// Controle Situacao.
@@ -85,6 +85,15 @@ namespace OLabrador
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList Situacao;
+
+        /// <summary>
+        /// Controle FileUpload1.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
 
         /// <summary>
         /// Controle Salvar.

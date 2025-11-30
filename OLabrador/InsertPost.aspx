@@ -23,16 +23,24 @@
             <asp:TextBox ID="CorpoDoTexto" TextMode="MultiLine" Height="400px" runat="server"></asp:TextBox>
             
             <label>Autor do texto</label>
-            <asp:TextBox ID="Autor" TextMode="MultiLine" Height="50px" runat="server"></asp:TextBox>
+            <asp:TextBox ID="Autor" TextMode="MultiLine" Height="40px" runat="server"></asp:TextBox>
             
-            <label>Foto</label>
-            <asp:FileUpload ID="FileUpload1" runat="server" />
-            
+            <label>Categoria</label>
+            <asp:DropDownList ID="Categoria" Width="150px" runat="server">
+                <asp:ListItem Text="Economia" Value="1"></asp:ListItem>
+                <asp:ListItem Text="Entretenimento" Value="2"></asp:ListItem>
+                <asp:ListItem Text="Política" Value="3"></asp:ListItem>
+                <asp:ListItem Text="Mundo" Value="4"></asp:ListItem>
+            </asp:DropDownList>
+
             <label>Situação</label>
-            <asp:DropDownList ID="Situacao" Width="120px" runat="server">
+            <asp:DropDownList ID="Situacao" Width="150px" runat="server">
                 <asp:ListItem Text="Ativo" Value="1"></asp:ListItem>
                 <asp:ListItem Text="Inativo" Value="0"></asp:ListItem>
             </asp:DropDownList>
+
+            <label>Foto</label>
+            <asp:FileUpload ID="FileUpload1" runat="server"/>
             <br />
             <br />
             <asp:Button OnClick="Salvar_Click" ID="Salvar" runat="server" Text="Salvar" />
