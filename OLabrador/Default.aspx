@@ -8,7 +8,7 @@
         <asp:Button ID="CatPolitica" runat="server" Text="Política" OnClick="CatPolitica_Click"/>
         <asp:Button ID="CatCultura" runat="server" Text="Cultura" OnClick="CatCultura_Click"/>
         <asp:Button ID="CatEsporte" runat="server" Text="Esporte" OnClick="CatEsporte_Click"/>
-        <asp:Button ID="CatCienciaTec" runat="server" Text="Ciência e Tecnologia" Visible="true" OnClick="CatCienciaTec_Click"/>
+        <asp:Button ID="CatTecnologia" runat="server" Text="Tecnologia" Visible="true" OnClick="CatTecnologia_Click"/>
         <asp:Button ID="Cancel" runat="server" Text="X" Visible="false" OnClick="Cancel_Click" BackColor="Red"/>
     </div>
     <div class="margin-top-60">

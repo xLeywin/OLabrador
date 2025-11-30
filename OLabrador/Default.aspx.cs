@@ -121,9 +121,9 @@ namespace OLabrador
             Response.Redirect("Default.aspx?f=" + choice);
         }
 
-        protected void CatCienciaTec_Click(object sender, EventArgs e)
+        protected void CatTecnologia_Click(object sender, EventArgs e)
         {
-            string choice = "Ciência e Tecnologia";
+            string choice = "Tecnologia";
             Response.Redirect("Default.aspx?f=" + choice);
         }
 
