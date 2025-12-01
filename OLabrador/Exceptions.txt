@@ -1,1 +1,96 @@
-﻿
+﻿System.Data.OleDb.OleDbException (0x80040E14): Erro de sintaxe (operador faltando) na expressão de consulta 'Post.situacao = -1 AND Post.codigo ='.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Datapost.DB.DAO.Query(String sql) na C:\Users\yodab\Meu Drive\Datapost\Framework\_Datapost\Datapost.DB\Datapost.DB\DB.vb:linha 277
+   em OLabrador.Post.ShowPost() na C:\temp\ws-visualstudio\OLabrador\OLabrador\Post.aspx.cs:linha 39
+System.Data.OleDb.OleDbException (0x80040E14): Erro de sintaxe (operador faltando) na expressão de consulta 'Post.situacao = -1 AND Post.codigo = 3ORDER BY Post.data_postagem'.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Datapost.DB.DAO.Query(String sql) na C:\Users\yodab\Meu Drive\Datapost\Framework\_Datapost\Datapost.DB\Datapost.DB\DB.vb:linha 277
+   em OLabrador.Post.ShowPost() na C:\temp\ws-visualstudio\OLabrador\OLabrador\Post.aspx.cs:linha 39
+System.Data.OleDb.OleDbException (0x80040E14): Erro de sintaxe (operador faltando) na expressão de consulta 'Post.situacao = -1 AND Post.codigo = 2ORDER BY Post.data_postagem'.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Datapost.DB.DAO.Query(String sql) na C:\Users\yodab\Meu Drive\Datapost\Framework\_Datapost\Datapost.DB\Datapost.DB\DB.vb:linha 277
+   em OLabrador.Post.ShowPost() na C:\temp\ws-visualstudio\OLabrador\OLabrador\Post.aspx.cs:linha 39
+System.Data.OleDb.OleDbException (0x80040E14): Erro de sintaxe (operador faltando) na expressão de consulta 'Post.situacao = -1 AND Post.codigo = 3ORDER BY Post.data_postagem'.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Datapost.DB.DAO.Query(String sql) na C:\Users\yodab\Meu Drive\Datapost\Framework\_Datapost\Datapost.DB\Datapost.DB\DB.vb:linha 277
+   em OLabrador.Post.ShowPost() na C:\temp\ws-visualstudio\OLabrador\OLabrador\Post.aspx.cs:linha 39
+System.Data.OleDb.OleDbException (0x80040E14): Erro de sintaxe (operador faltando) na expressão de consulta 'Post.situacao = -1 AND codigo ='.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Datapost.DB.DAO.Query(String sql) na C:\Users\yodab\Meu Drive\Datapost\Framework\_Datapost\Datapost.DB\Datapost.DB\DB.vb:linha 277
+   em OLabrador.Post.ShowPost() na C:\temp\ws-visualstudio\OLabrador\OLabrador\Post.aspx.cs:linha 39
+System.Data.OleDb.OleDbException (0x80040E14): Erro de sintaxe (operador faltando) na expressão de consulta 'Post.situacao = -1 AND codigo ='.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Datapost.DB.DAO.Query(String sql) na C:\Users\yodab\Meu Drive\Datapost\Framework\_Datapost\Datapost.DB\Datapost.DB\DB.vb:linha 277
+   em OLabrador.Post.ShowPost() na C:\temp\ws-visualstudio\OLabrador\OLabrador\Post.aspx.cs:linha 39
+System.Data.OleDb.OleDbException (0x80040E14): Erro de sintaxe (operador faltando) na expressão de consulta 'Post.situacao = -1 AND codigo = 3ORDER BY Post.data_postagem'.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Datapost.DB.DAO.Query(String sql) na C:\Users\yodab\Meu Drive\Datapost\Framework\_Datapost\Datapost.DB\Datapost.DB\DB.vb:linha 277
+   em OLabrador.Post.ShowPost() na C:\temp\ws-visualstudio\OLabrador\OLabrador\Post.aspx.cs:linha 39
+System.Data.OleDb.OleDbException (0x80040E14): Erro de sintaxe (operador faltando) na expressão de consulta 'Post.situacao = -1 AND Post.codigo ='.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Datapost.DB.DAO.Query(String sql) na C:\Users\yodab\Meu Drive\Datapost\Framework\_Datapost\Datapost.DB\Datapost.DB\DB.vb:linha 277
+   em OLabrador.Post.ShowPost() na C:\temp\ws-visualstudio\OLabrador\OLabrador\Post.aspx.cs:linha 39
+System.Data.OleDb.OleDbException (0x80040E14): Erro de sintaxe (operador faltando) na expressão de consulta 'Post.situacao = -1 AND Post.codigo ='.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Datapost.DB.DAO.Query(String sql) na C:\Users\yodab\Meu Drive\Datapost\Framework\_Datapost\Datapost.DB\Datapost.DB\DB.vb:linha 277
+   em OLabrador.Post.ShowPost() na C:\temp\ws-visualstudio\OLabrador\OLabrador\Post.aspx.cs:linha 39
+System.Data.OleDb.OleDbException (0x80040E14): Erro de sintaxe (operador faltando) na expressão de consulta 'Post.situacao = -1 AND Post.codigo ='.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Datapost.DB.DAO.Query(String sql) na C:\Users\yodab\Meu Drive\Datapost\Framework\_Datapost\Datapost.DB\Datapost.DB\DB.vb:linha 277
+   em OLabrador.Post.ShowPost() na C:\temp\ws-visualstudio\OLabrador\OLabrador\Post.aspx.cs:linha 39
+System.Data.OleDb.OleDbException (0x80040E14): Erro de sintaxe (operador faltando) na expressão de consulta 'Post.situacao = -1 AND Post.codigo ='.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Datapost.DB.DAO.Query(String sql) na C:\Users\yodab\Meu Drive\Datapost\Framework\_Datapost\Datapost.DB\Datapost.DB\DB.vb:linha 277
+   em OLabrador.Post.ShowPost() na C:\temp\ws-visualstudio\OLabrador\OLabrador\Post.aspx.cs:linha 39
+System.Data.OleDb.OleDbException (0x80040E14): Erro de sintaxe (operador faltando) na expressão de consulta 'Post.situacao = -1 AND Post.codigo ='.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Datapost.DB.DAO.Query(String sql) na C:\Users\yodab\Meu Drive\Datapost\Framework\_Datapost\Datapost.DB\Datapost.DB\DB.vb:linha 277
+   em OLabrador.Post.ShowPost() na C:\temp\ws-visualstudio\OLabrador\OLabrador\Post.aspx.cs:linha 39
+System.Data.OleDb.OleDbException (0x80040E14): Erro de sintaxe (operador faltando) na expressão de consulta 'Post.situacao = -1 AND Post.codigo ='.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Datapost.DB.DAO.Query(String sql) na C:\Users\yodab\Meu Drive\Datapost\Framework\_Datapost\Datapost.DB\Datapost.DB\DB.vb:linha 277
+   em OLabrador.Post.ShowPost() na C:\temp\ws-visualstudio\OLabrador\OLabrador\Post.aspx.cs:linha 39
+System.Data.OleDb.OleDbException (0x80040E14): Erro de sintaxe (operador faltando) na expressão de consulta 'Post.situacao = -1 AND Post.codigo ='.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Datapost.DB.DAO.Query(String sql) na C:\Users\yodab\Meu Drive\Datapost\Framework\_Datapost\Datapost.DB\Datapost.DB\DB.vb:linha 277
+   em OLabrador.Post.ShowPost() na C:\temp\ws-visualstudio\OLabrador\OLabrador\Post.aspx.cs:linha 39
+System.Data.OleDb.OleDbException (0x80040E14): Erro de sintaxe (operador faltando) na expressão de consulta 'Post.situacao = -1 AND Post.codigo ='.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Datapost.DB.DAO.Query(String sql) na C:\Users\yodab\Meu Drive\Datapost\Framework\_Datapost\Datapost.DB\Datapost.DB\DB.vb:linha 277
+   em OLabrador.Post.ShowPost() na C:\temp\ws-visualstudio\OLabrador\OLabrador\Post.aspx.cs:linha 39
+System.Data.OleDb.OleDbException (0x80040E14): Erro de sintaxe (operador faltando) na expressão de consulta 'Post.situacao = -1 AND Post.codigo ='.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em Datapost.DB.DAO.Query(String sql) na C:\Users\yodab\Meu Drive\Datapost\Framework\_Datapost\Datapost.DB\Datapost.DB\DB.vb:linha 277
+   em OLabrador.Post.ShowPost() na C:\temp\ws-visualstudio\OLabrador\OLabrador\Post.aspx.cs:linha 39

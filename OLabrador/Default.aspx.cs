@@ -23,7 +23,7 @@ namespace OLabrador
         {
             string filter = Request.QueryString["f"];
 
-            // Conection sring to database
+            // Conection string to database
             // https://www.connectionstrings.com
             string conexao = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + Server.MapPath("~/App_Data/DataBase.accdb") + ";Persist Security Info=False;";
             string sql = @"SELECT Post.*, Categoria.nome AS categoria_nome, Usuario.nome AS autor_nome
@@ -61,40 +61,24 @@ namespace OLabrador
         protected void GridViewGaleria_ItemDataBound(object sender, RepeaterItemEventArgs e)
         {
             if (e.Item.ItemType != ListItemType.Item && e.Item.ItemType != ListItemType.AlternatingItem)
-            {
                 return;
-            }
-            // Obtem os itens
+
             DataRowView rowView = (DataRowView)e.Item.DataItem;
 
-            HyperLink ImageLink = (HyperLink)e.Item.FindControl("LinkImagem");
-            Image ImagePost = (Image)e.Item.FindControl("Image");
+            HyperLink postLink = (HyperLink)e.Item.FindControl("PostLink");
+            Image imagePost = (Image)e.Item.FindControl("Image");
+            Label title = (Label)e.Item.FindControl("Title");
+            Label subtitle = (Label)e.Item.FindControl("Subtitle");
+            Label postDate = (Label)e.Item.FindControl("PostDate");
 
-            ImageLink.NavigateUrl = ResolveUrl("~/App_Files/") + rowView["imagem"].ToString();
-            ImagePost.ImageUrl = ResolveUrl("~/App_Files/") + rowView["imagem"].ToString();
+            string urlImagem = ResolveUrl("~/App_Files/") + rowView["imagem"].ToString();
 
-            Label Title = (Label)e.Item.FindControl("Title");
-            Title.Text = rowView["titulo"].ToString();
+            postLink.NavigateUrl = "~/Post.aspx?p=" + rowView["codigo"].ToString();
+            imagePost.ImageUrl = urlImagem;
 
-            Label Subtitle = (Label)e.Item.FindControl("Subtitle");
-            Subtitle.Text = rowView["subtitulo"].ToString();
-
-            Label PostDate = (Label)e.Item.FindControl("PostDate");
-            PostDate.Text = rowView["data_postagem"].ToString();
-
-            
-
-            //Label Author = (Label)e.Item.FindControl("Author");
-            //Author.Text = "Autor: " + rowView["autor_nome"].ToString();
-
-            //Label Category = (Label)e.Item.FindControl("Category");
-            //Category.Text = "Categoria: " + rowView["categoria_nome"].ToString();
-
-            //Label Lead = (Label)e.Item.FindControl("Lead");
-            //Lead.Text = rowView["lide"].ToString();
-
-            //Label Content = (Label)e.Item.FindControl("Content");
-            //Content.Text = rowView["conteudo"].ToString();
+            title.Text = rowView["titulo"].ToString();
+            subtitle.Text = rowView["subtitulo"].ToString();
+            postDate.Text = Convert.ToDateTime(rowView["data_postagem"]).ToString("dd/MM/yyyy");
         }
 
         protected void CatEconomia_Click(object sender, EventArgs e)
@@ -131,5 +115,7 @@ namespace OLabrador
         {
             Response.Redirect("Default.aspx");
         }
+
+        //<asp:Button ID="Button1" runat="server" Text="Button" Style="display:block; margin-left:auto;" OnClick="Button1_Click" />
     }
 }

@@ -90,6 +90,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Database.accdb" />
+    <Content Include="App_Files\cachorro.png" />
+    <Content Include="App_Files\guia-de-arquitetura-de-brasilia.jpg" />
     <Content Include="CreateNewAccount.aspx" />
     <Content Include="Css\Project.css" />
     <Content Include="Css\StyleSheet.css" />
@@ -102,6 +104,7 @@
     <Content Include="Images\logo_labrador.png" />
     <Content Include="Images\logo_labrador_branco.png" />
     <Content Include="InsertPost.aspx" />
+    <Content Include="Post.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +129,13 @@
     <Compile Include="InsertPost.aspx.designer.cs">
       <DependentUpon>InsertPost.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Post.aspx.cs">
+      <DependentUpon>Post.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Post.aspx.designer.cs">
+      <DependentUpon>Post.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -145,9 +155,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Files\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
