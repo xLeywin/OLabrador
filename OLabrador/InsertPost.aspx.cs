@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.IO;
 using System.Linq;
 using System.Web;
@@ -52,14 +53,19 @@ namespace OLabrador
                 }
                 try
                 {
+                    string nomeUsuario = User.Identity.Name;
 
                     string conexao = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + Server.MapPath("~/App_Data/DataBase.accdb") + ";Persist Security Info=False;";
-                    //falta adicionar o autor
-                    string sql = "INSERT INTO Post(titulo, subtitulo, conteudo, lide, data_postagem, situacao, imagem, cod_categoria) VALUES('" + Titulo.Text + "', '" + Subtitulo.Text + "', '" + CorpoDoTexto.Text + "', '" + Lide.Text + "', '" + DateTime.Now.ToString() + "', " + Situacao.SelectedValue + ", '" + imagem + "', '" + Categoria.SelectedValue + "');";
 
+                    string sql = "SELECT codigo FROM Usuario WHERE nome = '" + nomeUsuario + "'";
                     Datapost.DB.DAO db = new Datapost.DB.DAO();
                     db.ConnectionString = conexao;
                     db.DataProviderName = Datapost.DB.DAO.ProviderName.OleDb;
+
+                    DataTable dtAutor = (DataTable)db.Query(sql);
+                    string codAutor = dtAutor.Rows[0]["codigo"].ToString();
+
+                    sql = "INSERT INTO Post(titulo, subtitulo, conteudo, lide, data_postagem, situacao, imagem, cod_categoria, cod_autor) VALUES('" + Titulo.Text + "', '" + Subtitulo.Text + "', '" + CorpoDoTexto.Text + "', '" + Lide.Text + "', '" + DateTime.Now.ToString() + "', " + Situacao.SelectedValue + ", '" + imagem + "', '" + Categoria.SelectedValue + "', '" + codAutor + "');";
                     db.Query(sql);
 
                     Titulo.Text = "";
@@ -68,6 +74,7 @@ namespace OLabrador
                     Lide.Text = "";
                     Situacao.Text = "";
                     Categoria.Text = "";
+                    Alerta.Text = "";
                 }
 
                 catch (Exception ex)
