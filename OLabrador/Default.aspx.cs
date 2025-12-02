@@ -30,14 +30,14 @@ namespace OLabrador
                            FROM (Categoria INNER JOIN Post ON Categoria.codigo = Post.cod_categoria)
                            INNER JOIN Usuario ON Usuario.codigo = Post.cod_autor
                            WHERE Post.situacao = -1
-                           ORDER BY Post.data_postagem";
+                           ORDER BY Post.data_postagem DESC";
             if (!string.IsNullOrEmpty(filter))
             {
                sql = @"SELECT Post.*, Categoria.nome AS categoria_nome, Usuario.nome AS autor_nome
                        FROM (Categoria INNER JOIN Post ON Categoria.codigo = Post.cod_categoria)
                        INNER JOIN Usuario ON Usuario.codigo = Post.cod_autor
                        WHERE Post.situacao = -1 AND Categoria.nome = '" + filter + "' " +
-                       "ORDER BY Post.data_postagem";
+                       "ORDER BY Post.data_postagem DESC";
 
                 Cancel.Visible = true;
             }
