@@ -43,20 +43,20 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Datapost.DB">
-      <HintPath>..\..\Datapost.DB\Datapost.DB.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\Datapost.DB\Datapost\Datapost.DB\Datapost.DB.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\lib\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="MySql.Data">
-      <HintPath>..\..\Datapost.DB\MySql.Data.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\Datapost.DB\Datapost\Datapost.DB\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="System.Buffers, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Buffers.4.6.1\lib\net462\System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.SQLite">
-      <HintPath>..\..\Datapost.DB\System.Data.SQLite.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\Datapost.DB\Datapost\Datapost.DB\System.Data.SQLite.dll</HintPath>
     </Reference>
     <Reference Include="System.Memory, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Memory.4.6.3\lib\net462\System.Memory.dll</HintPath>
@@ -104,7 +104,11 @@
     <Content Include="Images\logo_labrador.png" />
     <Content Include="Images\logo_labrador_branco.png" />
     <Content Include="InsertPost.aspx" />
+<<<<<<< HEAD
     <Content Include="Post.aspx" />
+=======
+    <Content Include="Login.aspx" />
+>>>>>>> 4e7b06a90f151fb468e423a1d04cc9a0b70fd2b8
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -129,12 +133,21 @@
     <Compile Include="InsertPost.aspx.designer.cs">
       <DependentUpon>InsertPost.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Post.aspx.cs">
       <DependentUpon>Post.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Post.aspx.designer.cs">
       <DependentUpon>Post.aspx</DependentUpon>
+=======
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+>>>>>>> 4e7b06a90f151fb468e423a1d04cc9a0b70fd2b8
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
