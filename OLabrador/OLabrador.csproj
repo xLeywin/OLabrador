@@ -99,6 +99,7 @@
     <Content Include="Css\Project.css" />
     <Content Include="Css\StyleSheet.css" />
     <Content Include="Default.aspx" />
+    <Content Include="EditPost.aspx" />
     <Content Include="Exceptions.txt" />
     <Content Include="Images\letreiro_labrador.png" />
     <Content Include="Images\letreiro_labrador_branco.png" />
@@ -109,6 +110,7 @@
     <Content Include="InsertPost.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Post.aspx" />
+    <Content Include="ShowPost.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -125,6 +127,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditPost.aspx.cs">
+      <DependentUpon>EditPost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditPost.aspx.designer.cs">
+      <DependentUpon>EditPost.aspx</DependentUpon>
     </Compile>
     <Compile Include="InsertPost.aspx.cs">
       <DependentUpon>InsertPost.aspx</DependentUpon>
@@ -148,6 +157,13 @@
       <DependentUpon>Post.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShowPost.aspx.cs">
+      <DependentUpon>ShowPost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowPost.aspx.designer.cs">
+      <DependentUpon>ShowPost.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
