@@ -45,21 +45,27 @@ namespace OLabrador
                 File.AppendAllText(caminho, ex.ToString() + Environment.NewLine);
             }
 
-            if (dt == null || dt.Rows.Count == 0)
+            if (dt == null || dt.Rows.Count == 0) // If it has no results
             {
-                Error.Text = "Erro ao adquirir post.";
-                return; // If it has no results
+                Error.Visible = true;
+                Error.Text = "Erro ao adquirir a postagem.";
+                return; 
             }
 
             DataRow row = dt.Rows[0];
 
             TitlePost.Text = row["titulo"].ToString();
             Subtitle.Text = row["subtitulo"].ToString();
-            PostDate.Text = "Postado em: " + Convert.ToDateTime(row["data_postagem"]).ToString("dd/MM/yyyy");
-            Category.Text = "Categoria: " + row["categoria_nome"].ToString();
-            Author.Text = "Autor: " + row["autor_nome"].ToString();
+            PostDate.Text = "Data de postagem: " + Convert.ToDateTime(row["data_postagem"]).ToString("dd/MM/yyyy");
+            Category.Text = "-   Categoria: " + row["categoria_nome"].ToString();
+            Author.Text = "Publicado por: " + row["autor_nome"].ToString();
             Content.Text = row["conteudo"].ToString();
             Image.ImageUrl = "~/App_Files/" + row["imagem"].ToString();
+        }
+
+        protected void BackTo_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
         }
     }
 }

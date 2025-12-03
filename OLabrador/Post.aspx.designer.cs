@@ -15,13 +15,13 @@ namespace OLabrador
     {
 
         /// <summary>
-        /// Controle Baack.
+        /// Controle BackTo.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Baack;
+        protected global::System.Web.UI.WebControls.Button BackTo;
 
         /// <summary>
         /// Controle Error.
@@ -51,15 +51,6 @@ namespace OLabrador
         protected global::System.Web.UI.WebControls.Image Image;
 
         /// <summary>
-        /// Controle Subtitle.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Subtitle;
-
-        /// <summary>
         /// Controle PostDate.
         /// </summary>
         /// <remarks>
@@ -85,6 +76,15 @@ namespace OLabrador
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Author;
+
+        /// <summary>
+        /// Controle Subtitle.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Subtitle;
 
         /// <summary>
         /// Controle Content.

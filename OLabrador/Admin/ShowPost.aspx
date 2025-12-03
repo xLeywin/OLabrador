@@ -10,7 +10,7 @@
 
                 <asp:Button ID="Buscar" runat="server" Text="BUSCAR" OnClick="Buscar_Click" CssClass="botao-confirmar"/>
 
-                <asp:Button ID="Cancelar" Visible="false" runat="server" OnClick="Cancelar_Click" Text="X" />
+                <asp:Button ID="Cancelar" Visible="false" runat="server" OnClick="Cancelar_Click" Text="X"  CssClass="botao-cancelar"/>
                 <br />
                 <br />
                 <asp:GridView ID="Postagens" Width="100%" CellPadding="8" OnSelectedIndexChanged="Postagens_SelectedIndexChanged" AutoGenerateSelectButton="true" BorderColor="#c0c0c0" runat="server"></asp:GridView>

@@ -15,7 +15,7 @@
                 <asp:TextBox ID="Titulo" TextMode="MultiLine" Height="120px" runat="server"></asp:TextBox>
 
                 <label>Subtítulo</label>
-                <asp:TextBox ID="Subtitulo" TextMode="MultiLine" Height="120px" runat="server"></asp:TextBox>
+                <asp:TextBox ID="Subtitulo" TextMode="MultiLine" Height="120px" runat="server" MaxLength="200"></asp:TextBox>
 
                 <label>Lide</label>
                 <asp:TextBox ID="Lide" TextMode="MultiLine" Height="120px" runat="server"></asp:TextBox>
