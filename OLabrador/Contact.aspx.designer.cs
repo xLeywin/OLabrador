@@ -11,26 +11,26 @@ namespace OLabrador
 {
 
 
-    public partial class CreateNewAccount
+    public partial class Contact
     {
 
         /// <summary>
-        /// Controle Alerta.
+        /// Controle Alert.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Alerta;
+        protected global::System.Web.UI.WebControls.Label Alert;
 
         /// <summary>
-        /// Controle Nome.
+        /// Controle Name.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Nome;
+        protected global::System.Web.UI.WebControls.TextBox Name;
 
         /// <summary>
         /// Controle Email.
@@ -42,30 +42,21 @@ namespace OLabrador
         protected global::System.Web.UI.WebControls.TextBox Email;
 
         /// <summary>
-        /// Controle Senha.
+        /// Controle Message.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Senha;
+        protected global::System.Web.UI.WebControls.TextBox Message;
 
         /// <summary>
-        /// Controle SenhaConfirmar.
+        /// Controle Send.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox SenhaConfirmar;
-
-        /// <summary>
-        /// Controle Confirmar.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Confirmar;
+        protected global::System.Web.UI.WebControls.Button Send;
     }
 }

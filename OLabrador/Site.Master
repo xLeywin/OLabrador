@@ -42,26 +42,33 @@
 
 </head>
 <body>
-    <!-- Sidebar (hidden by default) -->
-    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left"
-        style="display: none; z-index: 2; width: 40%; min-width: 300px" id="mySidebar">
+    <form id="form1" runat="server">
+        <!-- Sidebar -->
+        <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left"
+            style="display: none; z-index: 2; width: 40%; min-width: 300px" id="mySidebar">
 
-        <div style="display: flex; align-items: center; padding: 20px; gap: 20px; justify-content: space-between">
-            <a href="Default.aspx">
-                <img src="Images/logo_labrador.png" style="height: 40px" />
-            </a>
-            <button onclick="w3_close()" style="font-size: 30px; background: none; border: none; cursor: pointer; background-color: #000000"> X </button>
+            <div style="display: flex; align-items: center; padding: 20px; gap: 20px; justify-content: space-between">
+                <a href="Default.aspx">
+                    <asp:Image runat="server" ImageUrl="~/Images/logo_labrador.png" style="height:40px" />
+                </a>
+                <button onclick="w3_close()" style="font-size: 30px; background: none; border: none; cursor: pointer; background-color: #000000">X </button>
+            </div>
+
+            <a href="../Default.aspx" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+            <a href="../About.aspx" onclick="w3_close()" class="w3-bar-item w3-button">SOBRE NÓS</a>
+            <a href="../Contact.aspx" onclick="w3_close()" class="w3-bar-item w3-button">CONTATO</a>
+
+            <asp:HyperLink ID="InsertPost" NavigateUrl="~/Admin/InsertPost.aspx" runat="server" Visible="false" CssClass="w3-bar-item w3-button">INSERIR POSTS</asp:HyperLink>
+            <asp:HyperLink ID="ShowPost" NavigateUrl="~/Admin/ShowPost.aspx" runat="server" Visible="false" CssClass="w3-bar-item w3-button">EXIBIR POSTS</asp:HyperLink>
+
+            <asp:HyperLink ID="Login" runat="server" NavigateUrl="~/Login.aspx" Visible="true" CssClass="w3-bar-item w3-button">ENTRAR</asp:HyperLink>
+            <asp:LinkButton ID="Logout" runat="server" Visible="false" OnClick="Logout_Click" CssClass="w3-bar-item w3-button">SAIR</asp:LinkButton>
+        </nav>
+
+        <div id="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.4); z-index: 1;"
+            onclick="w3_close()">
         </div>
 
-        <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
-        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
-    </nav>
-
-    <div id="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.4); z-index: 1;"
-        onclick="w3_close()">
-    </div>
-
-    <form id="form1" runat="server">
         <!-- Header -->
         <div style="height: 150px; background-color: #4b280a; margin: auto; position: relative">
 
@@ -70,10 +77,6 @@
             <!-- Title bar -->
             <div class="barra-titulo padding-14">
                 <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/letreiro_logo_labrador_branco.png" Width="500px" />
-            </div>
-            <!-- Menu -->
-            <div class="barra-menu">
-                <a href="../Default.aspx">HOME</a>
             </div>
         </div>
 
@@ -105,7 +108,7 @@
                     </div>
                     <div class="col-3">
                         <div class="padding-14" style="text-align: right">
-                            <img src="Images/logo_labrador.png" style="width: 50px; width: 100px" />
+                            <asp:Image runat="server" ImageUrl="~/Images/logo_labrador.png" style="width: 50px; width: 100px" />
                         </div>
                     </div>
                 </div>

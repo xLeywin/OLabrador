@@ -1,2 +1,60 @@
-﻿
-
+﻿System.Threading.ThreadAbortException: O thread estava sendo anulado.
+   em System.Threading.Thread.AbortInternal()
+   em System.Threading.Thread.Abort(Object stateInfo)
+   em System.Web.HttpResponse.AbortCurrentThread()
+   em System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   em OLabrador.Login.Entrar_Click(Object sender, EventArgs e) na C:\temp\ws-visualstudio\OLabrador\OLabrador\Login.aspx.cs:linha 63
+System.Threading.ThreadAbortException: O thread estava sendo anulado.
+   em System.Threading.Thread.AbortInternal()
+   em System.Threading.Thread.Abort(Object stateInfo)
+   em System.Web.HttpResponse.AbortCurrentThread()
+   em System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   em OLabrador.Login.Entrar_Click(Object sender, EventArgs e) na C:\temp\ws-visualstudio\OLabrador\OLabrador\Login.aspx.cs:linha 63
+System.Threading.ThreadAbortException: O thread estava sendo anulado.
+   em System.Threading.Thread.AbortInternal()
+   em System.Threading.Thread.Abort(Object stateInfo)
+   em System.Web.HttpResponse.AbortCurrentThread()
+   em System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   em OLabrador.Login.Entrar_Click(Object sender, EventArgs e) na C:\temp\ws-visualstudio\OLabrador\OLabrador\Login.aspx.cs:linha 63
+System.Threading.ThreadAbortException: O thread estava sendo anulado.
+   em System.Threading.Thread.AbortInternal()
+   em System.Threading.Thread.Abort(Object stateInfo)
+   em System.Web.HttpResponse.AbortCurrentThread()
+   em System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   em OLabrador.Login.Entrar_Click(Object sender, EventArgs e) na C:\temp\ws-visualstudio\OLabrador\OLabrador\Login.aspx.cs:linha 63
+System.Threading.ThreadAbortException: O thread estava sendo anulado.
+   em System.Threading.Thread.AbortInternal()
+   em System.Threading.Thread.Abort(Object stateInfo)
+   em System.Web.HttpResponse.AbortCurrentThread()
+   em System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   em OLabrador.Login.Entrar_Click(Object sender, EventArgs e) na C:\temp\ws-visualstudio\OLabrador\OLabrador\Login.aspx.cs:linha 63
+System.Threading.ThreadAbortException: O thread estava sendo anulado.
+   em System.Threading.Thread.AbortInternal()
+   em System.Threading.Thread.Abort(Object stateInfo)
+   em System.Web.HttpResponse.AbortCurrentThread()
+   em System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   em OLabrador.Login.Entrar_Click(Object sender, EventArgs e) na C:\temp\ws-visualstudio\OLabrador\OLabrador\Login.aspx.cs:linha 63
+System.Threading.ThreadAbortException: O thread estava sendo anulado.
+   em System.Threading.Thread.AbortInternal()
+   em System.Threading.Thread.Abort(Object stateInfo)
+   em System.Web.HttpResponse.AbortCurrentThread()
+   em System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   em OLabrador.Login.Entrar_Click(Object sender, EventArgs e) na C:\temp\ws-visualstudio\OLabrador\OLabrador\Login.aspx.cs:linha 63
+System.Threading.ThreadAbortException: O thread estava sendo anulado.
+   em System.Threading.Thread.AbortInternal()
+   em System.Threading.Thread.Abort(Object stateInfo)
+   em System.Web.HttpResponse.AbortCurrentThread()
+   em System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   em OLabrador.Login.Entrar_Click(Object sender, EventArgs e) na C:\temp\ws-visualstudio\OLabrador\OLabrador\Login.aspx.cs:linha 63
+System.Threading.ThreadAbortException: O thread estava sendo anulado.
+   em System.Threading.Thread.AbortInternal()
+   em System.Threading.Thread.Abort(Object stateInfo)
+   em System.Web.HttpResponse.AbortCurrentThread()
+   em System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   em OLabrador.Login.Entrar_Click(Object sender, EventArgs e) na C:\temp\ws-visualstudio\OLabrador\OLabrador\Login.aspx.cs:linha 63
+System.Threading.ThreadAbortException: O thread estava sendo anulado.
+   em System.Threading.Thread.AbortInternal()
+   em System.Threading.Thread.Abort(Object stateInfo)
+   em System.Web.HttpResponse.AbortCurrentThread()
+   em System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   em OLabrador.Login.Entrar_Click(Object sender, EventArgs e) na C:\temp\ws-visualstudio\OLabrador\OLabrador\Login.aspx.cs:linha 63
