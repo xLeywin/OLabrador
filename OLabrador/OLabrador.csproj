@@ -95,6 +95,7 @@
     <Content Include="App_Data\Database.accdb" />
     <Content Include="App_Files\cachorro.png" />
     <Content Include="App_Files\guia-de-arquitetura-de-brasilia.jpg" />
+    <Content Include="App_Files\Untitled.jpg" />
     <Content Include="CreateNewAccount.aspx" />
     <Content Include="Css\Project.css" />
     <Content Include="Css\StyleSheet.css" />

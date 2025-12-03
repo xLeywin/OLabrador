@@ -115,7 +115,5 @@ namespace OLabrador
         {
             Response.Redirect("Default.aspx");
         }
-
-        //<asp:Button ID="Button1" runat="server" Text="Button" Style="display:block; margin-left:auto;" OnClick="Button1_Click" />
     }
 }

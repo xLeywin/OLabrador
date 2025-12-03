@@ -14,7 +14,7 @@
     <div class="margin-top-60">
         <asp:Repeater OnItemDataBound="GridViewGaleria_ItemDataBound" ID="GridViewGaleria" runat="server">
             <ItemTemplate>
-                <asp:HyperLink ID="PostLink" runat="server" CssClass="no-decoration" Target="_blank">
+                <asp:HyperLink ID="PostLink" runat="server" CssClass="no-decoration">
                     <div class="col-12 box border padding-14">
                         <div class="row">
                             <div class="col-4">
