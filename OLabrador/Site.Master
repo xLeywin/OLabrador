@@ -38,6 +38,15 @@
         .w3-bar-block .w3-bar-item {
             padding: 20px
         }
+
+        .botao_menu{
+            fill:white;
+        }
+        .botao_menu:hover{
+            cursor:pointer;
+            fill:grey;
+            border:10px;
+        }
     </style>
 
 </head>
@@ -49,9 +58,9 @@
 
             <div style="display: flex; align-items: center; padding: 20px; gap: 20px; justify-content: space-between">
                 <a href="Default.aspx">
-                    <asp:Image runat="server" ImageUrl="~/Images/logo_labrador.png" style="height:40px" />
+                    <asp:Image runat="server" ImageUrl="~/Images/logo_labrador.png" Style="height: 40px" />
                 </a>
-                <button onclick="w3_close()" style="font-size: 30px; background: none; border: none; cursor: pointer; background-color: #000000">X </button>
+                <button onclick="w3_close()" style="font-size: 30px; background: none; border: none; cursor: pointer" class="botao-fechar">X</button>
             </div>
 
             <a href="../Default.aspx" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
@@ -72,7 +81,7 @@
         <!-- Header -->
         <div style="height: 150px; background-color: #4b280a; margin: auto; position: relative">
 
-            <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()" style="background-color: #ffffff">☰</div>
+            <div class="botao_menu w3-padding-16 w3-left" onclick="w3_open()" style="background-color: none; margin-top: 44px; margin-left: 30px"><svg class="botao_menu" width="30" height="30" viewBox="0 0 16 16" aria-hidden="true"><path d="M.866 4.132h14.268a.866.866 0 1 0 0-1.732H.866a.866.866 0 0 0 0 1.732M15.134 8.98H.866a.866.866 0 0 1 0-1.731h14.268a.866.866 0 1 1 0 1.731M15.134 13.829H.866a.866.866 0 0 1 0-1.732h14.268a.866.866 0 1 1 0 1.732"></path></svg></div>
 
             <!-- Title bar -->
             <div class="barra-titulo padding-14">
@@ -108,7 +117,7 @@
                     </div>
                     <div class="col-3">
                         <div class="padding-14" style="text-align: right">
-                            <asp:Image runat="server" ImageUrl="~/Images/logo_labrador.png" style="width: 50px; width: 100px" />
+                            <asp:Image runat="server" ImageUrl="~/Images/logo_labrador.png" Style="width: 50px; width: 100px" />
                         </div>
                     </div>
                 </div>
