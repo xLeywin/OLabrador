@@ -51,7 +51,7 @@
                 <a href="Default.aspx">
                     <asp:Image runat="server" ImageUrl="~/Images/logo_labrador.png" style="height:40px" />
                 </a>
-                <button onclick="w3_close()" style="font-size: 30px; background: none; border: none; cursor: pointer; background-color: #000000">X </button>
+                <button onclick="w3_close()" style="font-size: 30px; background: none; border: none; cursor: pointer; background-color: #000000">X</button>
             </div>
 
             <a href="../Default.aspx" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>

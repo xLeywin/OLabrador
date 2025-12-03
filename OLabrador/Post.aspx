@@ -4,6 +4,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="margin-top-60">
+        <asp:Button ID="Baack" runat="server" Text="Voltar" />
+        <br />
+        <br />
         <div class="col-12 box border padding-14">
             <asp:Label ID="Error" Font-Size="30px" runat="server" Font-Bold="true" Visible="false" ForeColor="Red"></asp:Label>
             <asp:Label ID="TitlePost" Font-Size="30px" runat="server" Font-Bold="true"></asp:Label>

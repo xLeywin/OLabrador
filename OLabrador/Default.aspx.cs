@@ -16,6 +16,7 @@ namespace OLabrador
             if (!IsPostBack)
             {
                 ShowPosts();
+                HighlightSelectedCategory();
             }
         }
 
@@ -115,5 +116,29 @@ namespace OLabrador
         {
             Response.Redirect("Default.aspx");
         }
+
+        private void HighlightSelectedCategory()
+        {
+            string filter = Request.QueryString["f"];
+
+            if (string.IsNullOrEmpty(filter))
+                return;
+
+            if (filter == "Economia")
+                CatEconomia.CssClass += " btn-selected";
+
+            else if (filter == "Política")
+                CatPolitica.CssClass += " btn-selected";
+
+            else if (filter == "Cultura")
+                CatCultura.CssClass += " btn-selected";
+
+            else if (filter == "Esporte")
+                CatEsporte.CssClass += " btn-selected";
+
+            else if (filter == "Tecnologia")
+                CatTecnologia.CssClass += " btn-selected";
+        }
+
     }
 }

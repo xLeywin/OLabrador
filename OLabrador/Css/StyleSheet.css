@@ -263,6 +263,10 @@ button {
         color: white;
     }
 
+.btn-selected {
+    background-color: black !important;
+    color: white !important;
+}
 
 .botao-delete {
     background-color: #ff6a00 !important;
@@ -287,6 +291,9 @@ button {
     .botao-inserir:hover {
         background-color: #293b90 !important;
     }
+
+
+
 
 /**************************************************************
 LAYOUT DE MíDIAS

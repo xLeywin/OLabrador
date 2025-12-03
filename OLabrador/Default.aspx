@@ -4,11 +4,11 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="margin-top-60; margin-bottom-60">
-        <asp:Button ID="CatEconomia" runat="server" Text="Economia" OnClick="CatEconomia_Click" />
-        <asp:Button ID="CatPolitica" runat="server" Text="Política" OnClick="CatPolitica_Click" />
-        <asp:Button ID="CatCultura" runat="server" Text="Cultura" OnClick="CatCultura_Click" />
-        <asp:Button ID="CatEsporte" runat="server" Text="Esporte" OnClick="CatEsporte_Click" />
-        <asp:Button ID="CatTecnologia" runat="server" Text="Tecnologia" Visible="true" OnClick="CatTecnologia_Click" />
+        <asp:Button ID="CatEconomia" runat="server" Text="Economia" OnClick="CatEconomia_Click" CssClass=""/>
+        <asp:Button ID="CatPolitica" runat="server" Text="Política" OnClick="CatPolitica_Click" CssClass=""/>
+        <asp:Button ID="CatCultura" runat="server" Text="Cultura" OnClick="CatCultura_Click" CssClass=""/>
+        <asp:Button ID="CatEsporte" runat="server" Text="Esporte" OnClick="CatEsporte_Click" CssClass=""/>
+        <asp:Button ID="CatTecnologia" runat="server" Text="Tecnologia" Visible="true" OnClick="CatTecnologia_Click" CssClass=""/>
         <asp:Button ID="Cancel" runat="server" Text="X" Visible="false" OnClick="Cancel_Click" BackColor="Red" />
     </div>
     <div class="margin-top-60">
