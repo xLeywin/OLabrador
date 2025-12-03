@@ -318,7 +318,21 @@ button {
         background-color: grey !important;
     }
 
+.botao-confirmar {
+    margin-top: 20px;
+    background-color: #3d7dc6 !important;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    height: 40px;
+    padding: 8px;
+    color: white !important;
+    
+    background-color: #7f4717 !important;
+}
 
+    .botao-confirmar:hover {
+        background-color: #4b280a !important;
+    }
 
 
 /**************************************************************

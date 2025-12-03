@@ -8,14 +8,14 @@
             <div class="border box-shadow padding-14">
                 <asp:TextBox ID="BuscarPostagem" Width="120px" runat="server"></asp:TextBox>
 
-                <asp:Button ID="Buscar" runat="server" Text="Buscar" OnClick="Buscar_Click" />
+                <asp:Button ID="Buscar" runat="server" Text="BUSCAR" OnClick="Buscar_Click" CssClass="botao-confirmar"/>
 
                 <asp:Button ID="Cancelar" Visible="false" runat="server" OnClick="Cancelar_Click" Text="X" />
                 <br />
                 <br />
                 <asp:GridView ID="Postagens" Width="100%" CellPadding="8" OnSelectedIndexChanged="Postagens_SelectedIndexChanged" AutoGenerateSelectButton="true" BorderColor="#c0c0c0" runat="server"></asp:GridView>
                 <br />
-                <asp:Button ID="Inserir" runat="server" Text="Inserir" onclick="Inserir_Click" />
+                <asp:Button ID="Inserir" runat="server" Text="INSERIR" onclick="Inserir_Click" CssClass="botao-confirmar"/>
 
             </div>
         </div>

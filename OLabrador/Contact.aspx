@@ -7,6 +7,8 @@
     <div class="col-6">
       <div class="border padding-14 margin-right-20">
         <h1>Contato</h1>
+        <asp:Label ID="Label1" runat="server">Envie uma mensagem para nós!</asp:Label>
+        <br />
         <br />
         <asp:Label ID="Alert" Font-Bold="true" Font-Size="16px" ForeColor="red" runat="server"></asp:Label>
         <br />
@@ -19,7 +21,7 @@
         <asp:TextBox ID="Message" MaxLength="255" TextMode="MultiLine"  Rows="6" runat="server"></asp:TextBox>
         <br />
 
-        <asp:Button ID="Send" OnClick="Send_Click" runat="server" Text="Enviar" />
+        <asp:Button ID="Send" OnClick="Send_Click" runat="server" Text="ENVIAR" CssClass="botao-confirmar"/>
         <br />
         <br />
       </div>

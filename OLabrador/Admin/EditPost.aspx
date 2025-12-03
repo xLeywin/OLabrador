@@ -38,8 +38,8 @@
                 <asp:FileUpload ID="FileUpload1" runat="server" />
                 <br />
                 <br />
-                <asp:Button OnClick="Gravar_Click" ID="Gravar" runat="server" Text="Gravar" />
-                <asp:Button OnClick="Excluir_Click" ID="Excluir" runat="server" Text="Excluir" />
+                <asp:Button OnClick="Gravar_Click" ID="Gravar" runat="server" Text="GRAVAR" CssClass="botao-confirmar" />
+                <asp:Button OnClick="Excluir_Click" ID="Excluir" runat="server" Text="EXCLUIR" CssClass="botao-confirmar" />
 
             </div>
         </div>

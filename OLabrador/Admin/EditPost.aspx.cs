@@ -24,7 +24,7 @@ namespace OLabrador
         {
             string codigo = Request.QueryString["c"];
 
-            string sql = "SELECT * FROM Post WHERE Codigo=" + codigo;
+            string sql = "SELECT * FROM Post WHERE Codigo = " + codigo;
 
             string conexao = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + Server.MapPath("~/App_Data/DataBase.accdb") + ";Persist Security Info=False;";
 

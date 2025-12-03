@@ -43,7 +43,7 @@
                 <asp:FileUpload ID="FileUpload1" runat="server" />
                 <br />
                 <br />
-                <asp:Button OnClick="Salvar_Click" ID="Salvar" runat="server" Text="Salvar" />
+                <asp:Button OnClick="Salvar_Click" ID="Salvar" runat="server" Text="SALVAR" CssClass="botao-confirmar"/>
             </div>
         </div>
     </div>
