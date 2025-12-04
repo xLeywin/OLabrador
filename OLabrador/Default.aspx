@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div style="margin-top:10px; margin-bottom:60px">
-       <label style="display:inline">Categorias: </label>
+       <label style="display:inline; font-size:15px">Categorias: </label>
         <asp:Button ID="CatEconomia" CssClass="margin-left-10" runat="server" Text="Economia" OnClick="CatEconomia_Click" />
         <asp:Button ID="CatPolitica" CssClass="margin-left-10" runat="server" Text="Política" OnClick="CatPolitica_Click" />
         <asp:Button ID="CatCultura" runat="server" CssClass="margin-left-10" Text="Cultura" OnClick="CatCultura_Click" />

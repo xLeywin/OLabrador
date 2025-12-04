@@ -85,6 +85,7 @@
     <Content Include="App_Files\guia-de-arquitetura-de-brasilia.jpg" />
     <Content Include="App_Files\Untitled.jpg" />
     <Content Include="Contact.aspx" />
+    <Content Include="Css\Footer.css" />
     <Content Include="Css\Project.css" />
     <Content Include="Css\StyleSheet.css" />
     <Content Include="Default.aspx" />

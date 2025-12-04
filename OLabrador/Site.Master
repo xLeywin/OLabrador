@@ -14,6 +14,7 @@
     <!-- Stylesheet references -->
     <link href="css/Project.css" rel="stylesheet" />
     <link href="css/StyleSheet.css" rel="stylesheet" />
+    <link href="css/Footer.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
 
@@ -53,13 +54,15 @@
                 fill: grey;
                 border: 10px;
             }
+
         body {
             font-family: "Open Sans", sans-serif;
         }
-            .body-titulo{
-                color: #65310d;
-                font-weight: bold;
-            }
+
+        .body-titulo {
+            color: #65310d;
+            font-weight: bold;
+        }
     </style>
 
 </head>
@@ -96,7 +99,8 @@
 
             <div class="botao_menu w3-padding-16 w3-left" onclick="w3_open()" style="background-color: none; margin-top: 44px; margin-left: 30px">
                 <svg class="botao_menu" width="30" height="30" viewBox="0 0 16 16" aria-hidden="true">
-                    <path d="M.866 4.132h14.268a.866.866 0 1 0 0-1.732H.866a.866.866 0 0 0 0 1.732M15.134 8.98H.866a.866.866 0 0 1 0-1.731h14.268a.866.866 0 1 1 0 1.731M15.134 13.829H.866a.866.866 0 0 1 0-1.732h14.268a.866.866 0 1 1 0 1.732"></path></svg></div>
+                    <path d="M.866 4.132h14.268a.866.866 0 1 0 0-1.732H.866a.866.866 0 0 0 0 1.732M15.134 8.98H.866a.866.866 0 0 1 0-1.731h14.268a.866.866 0 1 1 0 1.731M15.134 13.829H.866a.866.866 0 0 1 0-1.732h14.268a.866.866 0 1 1 0 1.732"></path></svg>
+            </div>
 
             <!-- Title bar -->
             <div class="barra-titulo padding-14">
@@ -111,33 +115,35 @@
         </div>
 
         <!-- Footer -->
-        <div class="rodape">
-            <div class="content-wrap">
-                <div class="row">
-                    <div class="col-6">
-                        <div class="padding-14">
-                            <h2>Faculdade de Tecnologia de Americana</h2>
-                            <h4>Analise e Desenvolvimento de Sistemas</h4>
-                            <h5>Americana-SP</h5>
-                            <br />
-                            <br />
-                            Turma: 2-2025
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="padding-14">
-                            <h2>MENU</h2>
-
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="padding-14" style="text-align: right">
-                            <asp:Image runat="server" ImageUrl="~/Images/logo_labrador.png" Style="width: 50px; width: 100px" />
-                        </div>
+        <footer class="site-footer">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <img src="Images/logo_labrador_branco.png" class="footer-logo">
+                    <div class="brand-text">
+                        <p>Feito para FATEC — Análise e Desenvolvimento de Sistemas.</p>
+                        <p>O Labrador. Todos os direitos reservados.</p>
                     </div>
                 </div>
+
+                <nav class="footer-nav" aria-label="Links do rodapé">
+                    <h3 class="footer-title">Navegação</h3>
+                    <ul>
+                        <li><a href="../Default.aspx" onclick="w3_close()" class="w3-bar-item w3-button">Home</a></li>
+                        <li><a href="../About.aspx" onclick="w3_close()" class="w3-bar-item w3-button">Sobre</a></li>
+                        <li><a href="../Contact.aspx" onclick="w3_close()" class="w3-bar-item w3-button">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="footer-contact">
+                    <h3 class="footer-title">Contato</h3>
+                    <address>
+                        Rua Exemplo, 123<br>
+                        Cidade — Estado<br>
+                        <p>+55 (11) 99999-9999</p>
+                        <p>contato@exemplo.com</p>
+                    </address>
+                </div>
             </div>
-        </div>
+        </footer>
     </form>
 </body>
 </html>
