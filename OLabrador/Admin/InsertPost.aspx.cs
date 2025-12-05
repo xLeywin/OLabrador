@@ -50,40 +50,51 @@ namespace OLabrador
                     string caminho = Server.MapPath("~/App_Files/");
                     imagem = Path.GetFileName(FileUpload1.FileName);
                     FileUpload1.SaveAs(caminho + imagem);
-                }
-                try
-                {
-                    string nomeUsuario = User.Identity.Name;
 
-                    string conexao = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + Server.MapPath("~/App_Data/DataBase.accdb") + ";Persist Security Info=False;";
+                    try
+                    {
+                        string nomeUsuario = User.Identity.Name;
 
-                    string sql = "SELECT codigo FROM Usuario WHERE email = '" + nomeUsuario + "'";
-                    Datapost.DB.DAO db = new Datapost.DB.DAO();
-                    db.ConnectionString = conexao;
-                    db.DataProviderName = Datapost.DB.DAO.ProviderName.OleDb;
+                        string conexao = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + Server.MapPath("~/App_Data/DataBase.accdb") + ";Persist Security Info=False;";
 
-                    DataTable dtAutor = (DataTable)db.Query(sql);
-                    string codAutor = dtAutor.Rows[0]["codigo"].ToString();
+                        string sql = "SELECT codigo FROM Usuario WHERE email = '" + nomeUsuario + "'";
+                        Datapost.DB.DAO db = new Datapost.DB.DAO();
+                        db.ConnectionString = conexao;
+                        db.DataProviderName = Datapost.DB.DAO.ProviderName.OleDb;
 
-                    sql = "INSERT INTO Post(titulo, subtitulo, conteudo, lide, data_postagem, situacao, imagem, cod_categoria, cod_autor) VALUES('" + Titulo.Text + "', '" + Subtitulo.Text + "', '" + CorpoDoTexto.Text + "', '" + Lide.Text + "', '" + DateTime.Now.ToString() + "', " + Situacao.SelectedValue + ", '" + imagem + "', '" + Categoria.SelectedValue + "', '" + codAutor + "');";
-                    db.Query(sql);
+                        DataTable dtAutor = (DataTable)db.Query(sql);
+                        string codAutor = dtAutor.Rows[0]["codigo"].ToString();
 
-                    Alerta.ForeColor = System.Drawing.Color.Green;
-                    Alerta.Text = "Post criado com sucesso.";
+                        string titulo = Titulo.Text.Replace("'", "''");
+                        string subtitulo = Subtitulo.Text.Replace("'", "''");
+                        string lide = Lide.Text.Replace("'", "''");
+                        string corpo = CorpoDoTexto.Text.Replace("'", "''");
 
-                    Titulo.Text = "";
-                    Subtitulo.Text = "";
-                    CorpoDoTexto.Text = "";
-                    Lide.Text = "";
-                    Situacao.Text = "";
-                    Categoria.Text = "";
-                    Alerta.Text = "";
-                }
+                        sql = "INSERT INTO Post(titulo, subtitulo, conteudo, lide, data_postagem, situacao, imagem, cod_categoria, cod_autor) " + "VALUES('" + titulo + "', '" + subtitulo + "', '" + corpo + "', '" + lide + "', '" + DateTime.Now.ToString() + "', " + Situacao.SelectedValue + ", '" + imagem + "', '" + Categoria.SelectedValue + "', '" + codAutor + "');";
 
-                catch (Exception ex)
-                {
-                    string caminho = Server.MapPath("~/Exceptions.txt");
-                    System.IO.File.AppendAllText(caminho, ex.ToString() + Environment.NewLine);
+                        db.Query(sql);
+
+                        Titulo.Text = "";
+                        Subtitulo.Text = "";
+                        CorpoDoTexto.Text = "";
+                        Lide.Text = "";
+                        Situacao.Text = "";
+                        Categoria.Text = "";
+                        Alerta.Text = "";
+
+                        ClientScript.RegisterStartupScript(
+                            this.GetType(),
+                            "alertOk",
+                            "alert('Postagem criada com sucesso');",
+                            true
+                        );
+                    }
+
+                    catch (Exception ex)
+                    {
+                        string caminhoEx = Server.MapPath("~/Exceptions.txt");
+                        System.IO.File.AppendAllText(caminhoEx, ex.ToString() + Environment.NewLine);
+                    }
                 }
             }
         }

@@ -118,7 +118,7 @@
         <footer class="site-footer">
             <div class="footer-inner">
                 <div class="footer-brand">
-                    <img src="Images/logo_labrador_branco.png" class="footer-logo">
+                    <asp:Image runat="server" ImageUrl="~/Images/logo_labrador_branco.png" CssClass="footer-logo" />
                     <div class="brand-text">
                         <p>Feito para FATEC — Análise e Desenvolvimento de Sistemas.</p>
                         <p>O Labrador. Todos os direitos reservados.</p>
