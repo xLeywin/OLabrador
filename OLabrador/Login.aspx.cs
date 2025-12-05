@@ -53,14 +53,15 @@ namespace OLabrador
 
                     FormsAuthentication.Initialize();
 
-                    FormsAuthenticationTicket ticket = new FormsAuthenticationTicket(1, nome,
+                    FormsAuthenticationTicket ticket = new FormsAuthenticationTicket(1, email,
                     DateTime.Now, DateTime.Now.AddMinutes(40), false,
                     FormsAuthentication.FormsCookiePath);
 
                     Response.Cookies.Add(new HttpCookie(FormsAuthentication.FormsCookieName,
                     FormsAuthentication.Encrypt(ticket)));
 
-                    Response.Redirect(FormsAuthentication.GetRedirectUrl(nome, false));
+                    Response.Redirect(FormsAuthentication.GetRedirectUrl(email, false), false);
+                    Context.ApplicationInstance.CompleteRequest();
 
                 }
                 else

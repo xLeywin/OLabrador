@@ -57,7 +57,7 @@ namespace OLabrador
 
                     string conexao = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + Server.MapPath("~/App_Data/DataBase.accdb") + ";Persist Security Info=False;";
 
-                    string sql = "SELECT codigo FROM Usuario WHERE nome = '" + nomeUsuario + "'";
+                    string sql = "SELECT codigo FROM Usuario WHERE email = '" + nomeUsuario + "'";
                     Datapost.DB.DAO db = new Datapost.DB.DAO();
                     db.ConnectionString = conexao;
                     db.DataProviderName = Datapost.DB.DAO.ProviderName.OleDb;
