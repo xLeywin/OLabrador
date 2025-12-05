@@ -68,6 +68,9 @@ namespace OLabrador
                     sql = "INSERT INTO Post(titulo, subtitulo, conteudo, lide, data_postagem, situacao, imagem, cod_categoria, cod_autor) VALUES('" + Titulo.Text + "', '" + Subtitulo.Text + "', '" + CorpoDoTexto.Text + "', '" + Lide.Text + "', '" + DateTime.Now.ToString() + "', " + Situacao.SelectedValue + ", '" + imagem + "', '" + Categoria.SelectedValue + "', '" + codAutor + "');";
                     db.Query(sql);
 
+                    Alerta.ForeColor = System.Drawing.Color.Green;
+                    Alerta.Text = "Post criado com sucesso.";
+
                     Titulo.Text = "";
                     Subtitulo.Text = "";
                     CorpoDoTexto.Text = "";
