@@ -40,7 +40,7 @@
                 </asp:DropDownList>
 
                 <label>Foto</label>
-                <asp:FileUpload ID="FileUpload1" runat="server" />
+                <asp:FileUpload ID="FileUpload1" runat="server" accept=".png,.jpg,.jpeg"/>
                 <br />
                 <br />
                 <asp:Button OnClick="Salvar_Click" ID="Salvar" runat="server" Text="SALVAR" CssClass="botao-confirmar"/>
