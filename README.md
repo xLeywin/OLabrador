@@ -16,14 +16,14 @@
 
 | Tecnologia | Uso | Proporção |
 |---|---|---|
-| C# | Lógica de back-end | ~48% |
-| ASP.NET | Framework web | ~26% |
+| C# | Lógica de back-end | ~47.6% |
+| ASP.NET | Framework web | ~26.4% |
 | CSS | Estilização | ~26% |
 
 ---
 
 ## 👤 Autores
-
-**xLeywin**
-
+**Walker Yslan Viani**
+- GitHub: [@walkerviani](https://github.com/walkerviani)
+**Wendell Ylan Viani**
 - GitHub: [@xLeywin](https://github.com/xLeywin)
