@@ -21,9 +21,10 @@
 | CSS | Estilização | ~26% |
 
 ---
-
 ## 👤 Autores
+ 
 **Walker Yslan Viani**
 - GitHub: [@walkerviani](https://github.com/walkerviani)
+ 
 **Wendell Ylan Viani**
 - GitHub: [@xLeywin](https://github.com/xLeywin)
