@@ -1,6 +1,7 @@
 # O Labrador
 
-> Website desenvolvido para a disciplina **Linguagem de Programação II** da **FATEC Americana-SP**
+![PI](https://github.com/xLeywin/Assets/blob/main/OLabrador/pagina-inicial-olabrador.png)
+> O Labrador é uma aplicação web de notícias desenvolvida para demonstrar a estrutura e o funcionamento de uma plataforma de conteúdo jornalístico. As manchetes e artigos exibidos são fictícios e utilizados apenas para fins ilustrativos.
 
 ---
 
@@ -19,12 +20,6 @@
 | C# | Lógica de back-end | ~47.6% |
 | ASP.NET | Framework web | ~26.4% |
 | CSS | Estilização | ~26% |
-
----
-
-## 🎬 Página Inicial
- 
-![PI](https://github.com/xLeywin/Assets/blob/main/OLabrador/pagina-inicial-olabrador.png)
 
 ---
  
