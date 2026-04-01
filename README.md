@@ -7,7 +7,7 @@
 
 ## 📋 Sobre o Projeto
 
-**O Labrador** é uma aplicação web desenvolvida como projeto acadêmico na FATEC Americana-SP. O site foi construído utilizando **ASP.NET** com **C#** no back-end e **CSS** para estilização da interface.
+**O Labrador** é uma aplicação web desenvolvida como projeto acadêmico na FATEC Americana-SP. O site foi construído utilizando **ASP.NET** com **C#** no back-end e **CSS** para estilização da interface. Implementa operações CRUD para gerenciamento de dados, validações no backend e integração com banco de dados relacional. O site permite que administradores realizem o gerenciamento completo de manchetes e os usuários podem navegar pelas notícias, aplicar filtros na página principal e visualizar os conteúdos publicados.
 
 🌐 **Deploy:** [wendell.somee.com](http://wendell.somee.com/)
 
